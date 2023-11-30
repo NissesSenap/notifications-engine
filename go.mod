@@ -116,4 +116,7 @@ require (
 	github.com/hashicorp/go-retryablehttp v0.5.3
 )
 
-replace github.com/prometheus/client_golang => github.com/prometheus/client_golang v1.14.0
+replace (
+	github.com/argoproj/notifications-engine => ./
+	github.com/prometheus/client_golang => github.com/prometheus/client_golang v1.14.0
+)
